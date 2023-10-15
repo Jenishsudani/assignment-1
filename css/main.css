@@ -1,0 +1,64 @@
+/* Body element */
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    font: 16px/1.5 Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Header and Footer elements */
+header, footer {
+    border: 2px solid #1233a0;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Header and H1 elements */
+header, h1 {
+    color: #a40b0b;
+    font-variant: small-caps;
+}
+
+/* Main and Aside elements */
+main, aside {
+    width: 66.66%;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Images */
+.mainimg img {
+    border: 1px solid #179a0e;
+}
+
+/* Figcaption */
+figcaption {
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+/* Quotation */
+q {
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+/* List items and links */
+ul li {
+    list-style: none;
+    line-height: 1.5;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #e40eae;
+}
+
+ul li a:hover {
+    color: #00b4d8;
+}
